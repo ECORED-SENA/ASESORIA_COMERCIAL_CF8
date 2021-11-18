@@ -234,139 +234,119 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
+        'Artal Castells, M. (2010). Dirección de ventas. Organización del departamento de ventas y gestión de vendedores. ESIC Alfaomega. 9ª edición. ',     
+    },
+    {
+      referencia:
+        'Cuartin, A. (2020). ¿Qué son indicadores? Tipos y beneficios de utilizarlos.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://blog.lemontech.com/que-son-indicadores-y-cuantos-tipos-existen-ejemplos/',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA:',
+        'Da Silva, D. (2020). ¿Qué es atención al cliente? Definición, elementos e importancia para las empresas en la actualidad.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'https://www.zendesk.com.mx/blog/que-es-atencion-al-cliente/',
     },
     {
       referencia:
-        '<em>Harpersbazaar</em>. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
-    },
-    {
-      referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
+        'Da Silva, D. (2020). ¿Cómo captar clientes potenciales?: las 7 estrategias más sencillas.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'https://www.zendesk.com.mx/blog/estrategias-captar-clientes-potenciales/',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
-    },
-    {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
+        'El viaje del cliente (2021). ¿Qué es el Servicio al Cliente? Definición y características.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
+        'https://elviajedelcliente.com/academia/servicio-al-cliente-customer-service/',
     },
     {
       referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
+        'Escamilla, G. (2020). Fidelización del cliente: concepto, importancia, consejos y métricas.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
+        'https://www.rdstation.com/co/blog/fidelizacion-del-cliente/',
     },
     {
       referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
+        'Pérez Feijoo, H.; Pérez Hernández, Jorge M.; López González, L. y Caballero Bravo, C. (2013). Comunicación y atención al cliente. McGraw Hill Education.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+    },
+    {
+      referencia:
+        'Kotler, P.  y Armstrong, G. (2012). Marketing. Editorial Pearson.',    
+    },
+    {
+      referencia:
+        'Ramírez, Al. (2018). ¿Qué elementos componen la postventa?',
+      link:
+        'https://www.informabtl.com/que-elementos-componen-la-posventa/ ',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Atención al cliente',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'El servicio al cliente, conocido también como servicio de atención al cliente es una herramienta de marketing, que se encarga de establecer puntos de contacto con los clientes, a través de diferentes canales, para establecer relaciones con ellos, antes, durante y después de la venta (Douglas, 2020).',
     },
     {
-      termino: '<em>Suftware</em>',
+      termino: 'Calidad del servicio',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'La calidad es el. “Grado en el que el desempeño percibido de un producto coincide con las expectativas del consumidor (Kotler & Armstrong, 2012).',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Indicadores',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        '“os indicadores son unidades de medición que permiten evaluar el rendimiento de los procesos internos de la firma, ya sea para medir la rentabilidad, productividad, calidad de servicio, gestión del tiempo, entre otros (Cuartin, A. 2020).',
     },
     {
-      termino: '<em>Áectores</em>',
+      termino: 'Postventa',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'Es la parte de la atención al cliente que reúne todas las estrategias pensadas para mejorar la experiencia después de la compra y mantener una relación duradera con los clientes, siempre correspondiendo a sus expectativas y necesidades (Sale Forje, 2018).',
     },
     {
-      termino: 'Moda',
+      termino: 'Servicio al cliente',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
-    },
-    {
-      termino: 'Diseña',
-      significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
-    },
-    {
-      termino: 'DIseño',
-      significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
-    },
-    {
-      termino: 'Tipología',
-      significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
-    },
-    {
-      termino: 'Bidimensional',
-      significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
-    },
-    {
-      termino: 'Interés Inferior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interseccionalidad',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interés superior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'El significado de servicio al cliente o customer service engloba elementos como el asesoramiento, los elementos tangibles (tienda física, web), la capacidad de respuesta, personalización, la fiabilidad o la calidad del producto, las condiciones de pago etc. En definitiva, las estrategias de servicio están relacionado con la atención global y facilidades que prestas a tus clientes (El viaje del cliente, 2021).',
     },
   ],
   complementario: [
     {
       texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        'Da Silva, D. (2020). ¿Cómo captar clientes potenciales?: las 7 estrategias más sencillas.',
+      tipo: 'Página web',
+      link:
+        'https://www.zendesk.com.mx/blog/estrategias-captar-clientes-potenciales/',
     },
     {
       texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
+        'Sales Force Latinoamérica. (2018). Postventa: qué es y cómo realizarla.',
       tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
+      link:
+        'https://www.salesforce.com/mx/blog/2018/3/Postventa-que-es-y-como-hacer.html ',
     },
     {
       texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
-    },
-    {
-      texto: 'Economía de Rosquilla. (s.f.).',
+        'Sales Force Latinoamérica. (2018). Postventa: qué es y cómo realizarla.',
       tipo: 'Página web',
-      descarga: ['/downloads/prueba.pdf', '/downloads/prueba.pdf'],
+      link:
+        'https://www.salesforce.com/mx/blog/2018/3/Postventa-que-es-y-como-hacer.html ',
     },
     {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
-      tipo: 'Video',
-      link: ['https://www.google.com/', 'https://www.google.com/'],
+      texto: 'Ramírez, A. (2018). ¿Qué elementos componen la posventa?',
+      tipo: 'Página web',
+      link: 'https://www.informabtl.com/que-elementos-componen-la-posventa/',
+    },
+    {
+      texto:
+        'Da Silva, D. (2020). ¿Qué es el seguimiento postventa? fases y tips para el mantenimiento de un cliente satisfecho.',
+      tipo: 'Página web',
+      link: 'https://www.zendesk.com.mx/blog/seguimiento-postventa/',
+    },
+    {
+      texto:
+        'Martínez Molera, L. (2021). Servicio posventa: qué es y cómo implementarlo con éxito.',
+      tipo: 'Página web',
+      link: 'https://blog.hubspot.es/service/servicio-post-venta ',
     },
   ],
   creditos: {
