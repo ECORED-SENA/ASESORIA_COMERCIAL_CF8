@@ -411,7 +411,7 @@
       .col-lg-3.d-flex
         .tarjeta.tarjeta-flip.color-acento-botones(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
-          .tarjeta-flip__contenedor.py-5
+          .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img23.svg')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-5.d-flex.align-items-center(style="background-color:#F8DE63; height:100%")
               div
@@ -421,7 +421,7 @@
       .col-lg-3.d-flex
         .tarjeta.tarjeta-flip.color-acento-botones(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
-          .tarjeta-flip__contenedor.py-5
+          .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img24.svg')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-5.d-flex.align-items-center(style="background-color:#F8DE63; height:100%")
               div
@@ -431,7 +431,7 @@
       .col-lg-3.d-flex
         .tarjeta.tarjeta-flip.color-acento-botones(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
-          .tarjeta-flip__contenedor.py-5
+          .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img25.svg')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-5.d-flex.align-items-center(style="background-color:#F8DE63; height:100%")
               div
@@ -441,7 +441,7 @@
       .col-lg-3.d-flex
         .tarjeta.tarjeta-flip.color-acento-botones(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
-          .tarjeta-flip__contenedor.py-5
+          .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img25.svg')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-5.d-flex.align-items-center(style="background-color:#F8DE63; height:100%")
               div
