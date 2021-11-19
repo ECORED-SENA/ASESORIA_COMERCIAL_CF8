@@ -198,12 +198,12 @@ export default {
       },
     ],
     subMenu: [
-      // {
-      //   nombreRuta: 'actividad',
-      //   icono: 'far fa-question-circle',
-      //   titulo: 'Actividad didáctica',
-      //   desarrolloContenidos: true,
-      // },
+      {
+        nombreRuta: 'actividad',
+        icono: 'far fa-question-circle',
+        titulo: 'Actividad didáctica',
+        desarrolloContenidos: true,
+      },
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
@@ -234,7 +234,7 @@ export default {
   referencias: [
     {
       referencia:
-        'Artal Castells, M. (2010). Dirección de ventas. Organización del departamento de ventas y gestión de vendedores. ESIC Alfaomega. 9ª edición. ',     
+        'Artal Castells, M. (2010). Dirección de ventas. Organización del departamento de ventas y gestión de vendedores. ESIC Alfaomega. 9ª edición. ',
     },
     {
       referencia:
@@ -245,8 +245,7 @@ export default {
     {
       referencia:
         'Da Silva, D. (2020). ¿Qué es atención al cliente? Definición, elementos e importancia para las empresas en la actualidad.',
-      link:
-        'https://www.zendesk.com.mx/blog/que-es-atencion-al-cliente/',
+      link: 'https://www.zendesk.com.mx/blog/que-es-atencion-al-cliente/',
     },
     {
       referencia:
@@ -263,23 +262,19 @@ export default {
     {
       referencia:
         'Escamilla, G. (2020). Fidelización del cliente: concepto, importancia, consejos y métricas.',
-      link:
-        'https://www.rdstation.com/co/blog/fidelizacion-del-cliente/',
+      link: 'https://www.rdstation.com/co/blog/fidelizacion-del-cliente/',
     },
     {
       referencia:
         'Pérez Feijoo, H.; Pérez Hernández, Jorge M.; López González, L. y Caballero Bravo, C. (2013). Comunicación y atención al cliente. McGraw Hill Education.',
-      link:
     },
     {
       referencia:
-        'Kotler, P.  y Armstrong, G. (2012). Marketing. Editorial Pearson.',    
+        'Kotler, P.  y Armstrong, G. (2012). Marketing. Editorial Pearson.',
     },
     {
-      referencia:
-        'Ramírez, Al. (2018). ¿Qué elementos componen la postventa?',
-      link:
-        'https://www.informabtl.com/que-elementos-componen-la-posventa/ ',
+      referencia: 'Ramírez, Al. (2018). ¿Qué elementos componen la postventa?',
+      link: 'https://www.informabtl.com/que-elementos-componen-la-posventa/ ',
     },
   ],
   glosario: [
@@ -306,7 +301,7 @@ export default {
     {
       termino: 'Servicio al cliente',
       significado:
-        'El significado de servicio al cliente o customer service engloba elementos como el asesoramiento, los elementos tangibles (tienda física, web), la capacidad de respuesta, personalización, la fiabilidad o la calidad del producto, las condiciones de pago etc. En definitiva, las estrategias de servicio están relacionado con la atención global y facilidades que prestas a tus clientes (El viaje del cliente, 2021).',
+        'El significado de servicio al cliente o customer service engloba elementos como el asesoramiento, los elementos tangibles (tienda física, <i>web</i>), la capacidad de respuesta, personalización, la fiabilidad o la calidad del producto, las condiciones de pago etc. En definitiva, las estrategias de servicio están relacionado con la atención global y facilidades que prestas a tus clientes (El viaje del cliente, 2021).',
     },
   ],
   complementario: [

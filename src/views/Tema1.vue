@@ -112,7 +112,7 @@
                     span(style="color:black !important") Descargar
                     i.fas.fa-file-download(style="color:black !important")
 
-    p.mb-0 Por tanto, el vendedor debe tener en cuenta estas etapas y la empresa considerar llevar a cabo programas de atención de servicio al cliente y servicio de postventa, para las MiPymes se debe considerar unir estos programas en la medida de sus recursos. 
+    p.mb-0 Por tanto, el vendedor debe tener en cuenta estas etapas y la empresa considerar llevar a cabo programas de atención de servicio al cliente y servicio de postventa, para las <i>MiPymes</i> se debe considerar unir estos programas en la medida de sus recursos. 
 
     Separador
 
@@ -333,7 +333,7 @@
     
     .row.justify-content-center.mb-4
       .col-lg-6
-        p.mb-4 El servicio postventa tiene una funcionalidad muy parecida al servicio al cliente y se deben trabajar en conjunto, puesto que tienen alto grado de dependencia la una de la otra. Las grandes organizaciones montan estos servicios por separados, pero las MiPymes puede integrar estos servicios o subcontratarlos. 
+        p.mb-4 El servicio postventa tiene una funcionalidad muy parecida al servicio al cliente y se deben trabajar en conjunto, puesto que tienen alto grado de dependencia la una de la otra. Las grandes organizaciones montan estos servicios por separados, pero las <i>MiPymes</i> puede integrar estos servicios o subcontratarlos. 
       .col-lg-6
         h4.mb-4 Pero ¿cómo estructurar un servicio postventas? De acuerdo con Pérez (2013) señala lo siguiente tanto en su estructura como en sus funciones:
     
@@ -405,7 +405,7 @@
     p.mb-5 Servicios que son un apoyo a la labor de la postventa y que dependen de otros departamentos de la organización como transporte, almacén y el seguimiento al finalizar la prestación del servicio postventa.
 
     h3 Caso práctico: Procedimiento para estructurar un servicio postventa
-    p.mb-5 La empresa Computer Working se dedica a la venta de computadores de mesa, todo en uno y portátiles. Una de las funciones de su servicio postventa es el mantenimiento y reparación de los computadores. En una incidencia, estos serían los posibles desarrollos:
+    p.mb-5 La empresa <i>Computer Working</i> se dedica a la venta de computadores de mesa, todo en uno y portátiles. Una de las funciones de su servicio postventa es el mantenimiento y reparación de los computadores. En una incidencia, estos serían los posibles desarrollos:
 
     .row.justify-content-center
       .col-lg-3.d-flex

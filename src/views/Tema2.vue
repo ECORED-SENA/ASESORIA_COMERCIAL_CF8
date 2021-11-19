@@ -23,7 +23,7 @@
           .col-lg-7.d-flex.align-items-center
             div
               h4 Bases de datos de clientes
-              p.mb-0 Tener listado de los clientes con su información básica, especialmente el teléfono para realizar Telemarketing, y de esta manera comunicarse con los clientes vía telefónica.
+              p.mb-0 Tener listado de los clientes con su información básica, especialmente el teléfono para realizar <i>Telemarketing</i>, y de esta manera comunicarse con los clientes vía telefónica.
       .tarjeta.t2-TabsA.p-4(titulo="Correspondencia")
         .row.justify-content-center
           .col-lg-3.col-md-4.col-sm-5.col-6
@@ -33,15 +33,15 @@
             div
               h4 Correspondencia
               p.mb-0 Puede utilizar cualquier medio, el usado comúnmente es el correo electrónico, donde pueda comunicar como van las incidencias u otros envíos como catálogos, revistas, u otras invitaciones.          
-      .tarjeta.t2-TabsA.p-4(titulo="Página web y correo electrónico")
+      .tarjeta.t2-TabsA.p-4(titulo="Página <i>web</i> y correo electrónico")
         .row.justify-content-center
           .col-lg-3.col-md-4.col-sm-5.col-6
             figure.mb-4
               img(src='@/assets/curso/tema2/img04.svg') 
           .col-lg-7.d-flex.align-items-center
             div
-              h4 Pagina web y correo electrónico
-              p.mb-0 Contar con una pagina web es hasta hoy el mejor modo más económico y rápido para comunicarse con el cliente. 
+              h4 Pagina <i>web</i> y correo electrónico
+              p.mb-0 Contar con una pagina <i>web</i> es hasta hoy el mejor modo más económico y rápido para comunicarse con el cliente. 
       .tarjeta.t2-TabsA.p-4(titulo="Visita personal")
         .row.justify-content-center
           .col-lg-3.col-md-4.col-sm-5.col-6
