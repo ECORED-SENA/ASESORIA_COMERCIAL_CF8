@@ -84,25 +84,25 @@
       h2 2.2 Tipos de servicios postventa
     p.mb-5 Entre los servicios postventas que debe adoptar la empresa, ya sea por aquellos productos de larga duración que tiene garantía de fabrica u otros de compras menos exigente, Martínez (2021) aporta los siguientes tipos de servicios postventas a adoptar por la empresa:
     
-    .row.justify-content-center
-      .col-lg-8
-        ImagenInfografica.color-acento-botones.mb-5
-          template(v-slot:imagen)
+    .tarjeta--container.row.mb-5
+      .col-md.t2.tarjeta.color-primario.p-5
+        .row.justify-content-center.mb-4
+          .col-4
             figure
-              img(src='@/assets/curso/tema2/img06.svg', alt='Texto que describa la imagen')              
-
-          .infografia.tarjeta.color-acento-botones.p-3(x="56%" y="19%" numero=" ")            
-            p.mb-0 Lego de haber tomado la decisión de realizar la compra, mientras llega el producto, si toca entregar la mercancía en el domicilio, bien sea off-line u on-line informarle al cliente la trazabilidad del producto para la entrega
-          .infografia.tarjeta.color-acento-botones.p-3(x="80%" y="50.3%" numero=" ")            
-            p.mb-0 Este es el servicio más conocido por los clientes y adoptado por las empresas, puede incluir reparación hasta el cambio del producto. De ofrecer además la garantía extendida que incluye más tiempo y otros agregados.
-          .infografia.tarjeta.color-acento-botones.p-3(x="62%" y="84%" numero=" ")            
-            p.mb-0 Dependiendo el producto puede prestar apoyo técnico sobre cuidados o manejos del producto
-          .infografia.tarjeta.color-acento-botones.p-3(x="24.5%" y="82.5%" numero=" ")            
-            p.mb-0 Busca la manera que los clientes interactúen con la empresa sobre sus productos y servicios, bien a través de llamadas telefónicas o encuestas.
-          .infografia.tarjeta.color-acento-botones.p-3(x="2%" y="55%" numero=" ")            
-            p.mb-0 A todo cliente le gustan las ofertas y las promociones, y los clientes se sienten más comprometidos cuando se les comunican esas promociones por teléfono o email. 
-          .infografia.tarjeta.color-acento-botones.p-3(x="20%" y="17.5%" numero=" ")            
-            p.mb-0 Este es un tema que genera inconvenientes con los clientes cuando por cualquier razón procuran hacer devolución de los productos que compran, la empresa debe tener claras los términos y condiciones para realizar este servicio inverso, además comunicarlo. 
+              img(src='@/assets/curso/tema2/img07.svg', alt='Texto que describa la imagen')
+          
+        h1.text-center.texto-blanco Los servicios técnicos<br>que se llevan sobre<br>los productos
+        p.texto-blanco <b>Instalación:</b> dependiendo del producto, se realiza por lo general en la vivienda del cliente<br><b>Mantenimiento:</b> ofrecer la revisión y puesta a punto por uso del producto, limpiezas, cambio de piezas, lubricación<br><b>Reparaciones:</b> sustituir piezas que no sirve y que no permite el funcionamiento del producto, si tiene aún garantía es sin ningún costo, pero deberá cancelar si venció la garantía. 
+    
+      
+      .col-md.t2.tarjeta.color-acento-contenido.text-white.p-5
+        .row.justify-content-center.mb-4
+          .col-4
+            figure
+              img(src='@/assets/curso/tema2/img08.svg', alt='Texto que describa la imagen')
+          
+        h1.text-center Los servicios que se prestan a quien adquiere<br>el producto o servicio
+        p <b>Adiestramiento para el uso del producto:</b> orientaciones que ofrece la empresa al cliente para su uso eficaz.<br><b>Manejo de quejas y reclamaciones:</b> establecer canales de comunicación para que el cliente manifieste a la empresa sobre sus inconformidades. 
     
     p.mb-5 Los aportes que hace Pérez (2013) a los tipos de servicios son los siguientes, ver tabla 5:
 
@@ -119,39 +119,40 @@
                 th.text-center Usuario
                 th.text-center Cliente              
             tbody
-              tr
+              tr(style="background-color:#F6F6F6")
                 td <b>Promocionales</b>
                 td Promover descuentos especiales a los clientes, tarjetas de puntos para realizar compras, llamadas de invitación a promociones y concursos.
-              tr
+              tr(style="background-color:#FFFFFF")
                 td <b>Psicológicos</b>
                 td Servicios ligados a la motivación del cliente, felicitaciones en el cumpleaños, llamar al cliente para preguntarle sobre la satisfacción de su compra.
-              tr
+              tr(style="background-color:#F6F6F6")
                 td <b>De seguridad</b>
                 td Dar garantías, devoluciones del dinero sino está satisfecho por su compra.
-              tr
+              tr(style="background-color:#FFFFFF")
                 td <b>De mantenimiento </b>
                 td Son los servicios de mantenimiento o de soporte técnico. Este servicio es muy agradecido por los clientes y sirve para fidelizar.
 
     p.mb-5 Luego de realizarse la venta de los productos y servicios, la empresa puede hacer distintas actividades dirigidas según Pérez (2013) a:       
     
-    .tarjeta--container.row
-      .col-md.t2.tarjeta.color-primario.p-5
-        .row.justify-content-center.mb-4
-          .col-4
+    .row.justify-content-center
+      .col-lg-8
+        ImagenInfografica.color-acento-botones
+          template(v-slot:imagen)
             figure
-              img(src='@/assets/curso/tema2/img07.svg', alt='Texto que describa la imagen')
-          
-        h1.text-center.texto-blanco Los servicios técnicos<br>que se llevan sobre<br>los productos
-        p.texto-blanco Instalación: dependiendo del producto, se realiza por lo general en la vivienda del cliente<br>Mantenimiento: ofrecer la revisión y puesta a punto por uso del producto, limpiezas, cambio de piezas, lubricación<br>Reparaciones: sustituir piezas que no sirve y que no permite el funcionamiento del producto, si tiene aún garantía es sin ningún costo, pero deberá cancelar si venció la garantía. 
-    
-      .col-md.t2.tarjeta.color-acento-contenido.text-white.p-5
-        .row.justify-content-center.mb-4
-          .col-4
-            figure
-              img(src='@/assets/curso/tema2/img08.svg', alt='Texto que describa la imagen')
-          
-        h1.text-center Los servicios que se prestan a quien adquiere<br>el producto o servicio
-        p Adiestramiento para el uso del producto: orientaciones que ofrece la empresa al cliente para su uso eficaz.<br>Manejo de quejas y reclamaciones: establecer canales de comunicación para que el cliente manifieste a la empresa sobre sus inconformidades. 
+              img(src='@/assets/curso/tema2/img06.svg', alt='Texto que describa la imagen')              
+
+          .infografia.tarjeta.color-acento-botones.p-3(x="56%" y="19%" numero=" ")            
+            p.mb-0 Luego de haber tomado la decisión de realizar la compra, mientras llega el producto, si toca entregar la mercancía en el domicilio, bien sea off-line u on-line informarle al cliente la trazabilidad del producto para la entrega
+          .infografia.tarjeta.color-acento-botones.p-3(x="80%" y="50.3%" numero=" ")            
+            p.mb-0 Este es el servicio más conocido por los clientes y adoptado por las empresas, puede incluir reparación hasta el cambio del producto. De ofrecer además la garantía extendida que incluye más tiempo y otros agregados.
+          .infografia.tarjeta.color-acento-botones.p-3(x="62%" y="84%" numero=" ")            
+            p.mb-0 Dependiendo el producto puede prestar apoyo técnico sobre cuidados o manejos del producto
+          .infografia.tarjeta.color-acento-botones.p-3(x="24.5%" y="82.5%" numero=" ")            
+            p.mb-0 Busca la manera que los clientes interactúen con la empresa sobre sus productos y servicios, bien a través de llamadas telefónicas o encuestas.
+          .infografia.tarjeta.color-acento-botones.p-3(x="2%" y="55%" numero=" ")            
+            p.mb-0 A todo cliente le gustan las ofertas y las promociones, y los clientes se sienten más comprometidos cuando se les comunican esas promociones por teléfono o email. 
+          .infografia.tarjeta.color-acento-botones.p-3(x="20%" y="17.5%" numero=" ")            
+            p.mb-0 Este es un tema que genera inconvenientes con los clientes cuando por cualquier razón procuran hacer devolución de los productos que compran, la empresa debe tener claras los términos y condiciones para realizar este servicio inverso, además comunicarlo.     
 
     Separador
 

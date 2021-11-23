@@ -14,7 +14,7 @@
           img(src='@/assets/curso/tema1/img01.png') 
       .col-lg-6.d-flex.align-items-center
         div
-          p.mb-4 Pero ¿qué es la postventa?, de acuerdo con Sale Forje (2018) <b>“es la parte de la atención al cliente que reúne todas las estrategias pensadas para mejorar la experiencia después de la compra y mantener una relación duradera con los clientes, siempre correspondiendo a sus expectativas y necesidades”</b>. 
+          p.mb-4 Pero ¿Qué es la postventa?, de acuerdo con Sale Forje (2018) <b>“es la parte de la atención al cliente que reúne todas las estrategias pensadas para mejorar la experiencia después de la compra y mantener una relación duradera con los clientes, siempre correspondiendo a sus expectativas y necesidades”</b>. 
           p.mb-0 El servicio postventa para Pérez (2013) es <b>“el conjunto de mecanismos y tareas que emplea la organización para, una vez efectuada la venta, lograr la satisfacción total del cliente con el objetivo de que se repita la compra, recomiende la marca o el producto, entre otras”</b> (p. 184) 
     
     .row.justify-content-center.mb-5
@@ -232,45 +232,90 @@
               tr
                 th Instalación
                 td   
-                  p.mb-0 Tiempo de respuesta
-                  p.mb-0 Número de quejas
-                  p.mb-0 Indicadores financieros
+                  ul.lista-ul
+                    li 
+                      i.lista-ul__vineta
+                      | Tiempo de respuesta
+                    li 
+                      i.lista-ul__vineta
+                      | Número de quejas
+                    li 
+                      i.lista-ul__vineta
+                      | Indicadores financieros
               tr
                 th Mantenimiento
                 td   
-                  p.mb-0 Cumplimiento del plan
-                  p.mb-0 Tiempo de respuesta
-                  p.mb-0 Número de quejas
-                  p.mb-0 Indicadores financieros
+                  ul.lista-ul
+                    li 
+                      i.lista-ul__vineta
+                      | Cumplimiento del plan
+                    li 
+                        i.lista-ul__vineta
+                        | Tiempo de respuesta
+                    li 
+                        i.lista-ul__vineta
+                        | Número de quejas
+                    li 
+                        i.lista-ul__vineta
+                        | Indicadores financieros
               tr
                 th Reparación
-                td   
-                  p.mb-0 Tiempo de respuesta
-                  p.mb-0 Porcentaje de casos solucionados
-                  p.mb-0 Porcentaje de averías técnicas solucionadas
-                  p.mb-0 Índice de devoluciones
-                  p.mb-0 Valor (económico) de las devoluciones
-                  p.mb-0 Número de quejas
-                  p.mb-0 Tasa de fallos (Caos no solucionados)
-                  p.mb-0 Indicadores financieros
+                td
+                  ul.lista-ul
+                    li 
+                      i.lista-ul__vineta
+                      | Tiempo de respuesta
+                    li 
+                      i.lista-ul__vineta
+                      | Porcentaje de casos solucionados
+                    li 
+                      i.lista-ul__vineta
+                      | Porcentaje de averías técnicas solucionadas
+                    li 
+                      i.lista-ul__vineta
+                      | Índice de devoluciones
+                    li 
+                      i.lista-ul__vineta
+                      | Valor (económico) de las devoluciones
+                    li 
+                      i.lista-ul__vineta
+                      | Número de quejas
+                    li 
+                      i.lista-ul__vineta
+                      | Tasa de fallos (Caos no solucionados)
+                    li 
+                      i.lista-ul__vineta
+                      | Indicadores financieros
               tr
                 th Manejo de quejas
                 td   
-                  p.mb-0 Tiempo de respuesta
-                  p.mb-0 Índice de solución
-                  p.mb-0 Valor (económico) de la inconformidad 
+                  ul.lista-ul
+                    li 
+                      i.lista-ul__vineta
+                      | Tiempo de respuesta
+                    li 
+                      i.lista-ul__vineta
+                      | Índice de solución
+                    li 
+                      i.lista-ul__vineta
+                      | Valor (económico) de la inconformidad 
               tr
                 th Adiestramiento al cliente
                 td           
-                  p.mb-0 Averías por una mala operación 
-                  p.mb-0 Reclamaciones originadas por desconocimiento del cliente             
+                  ul.lista-ul
+                    li 
+                      i.lista-ul__vineta
+                      | Averías por una mala operación 
+                    li 
+                      i.lista-ul__vineta
+                      | Reclamaciones originadas por desconocimiento del cliente             
                 
     h3 Implementación de la actividad postventa
     p.mb-5 En esta etapa de la postventa la empresa llevará a cabo lo planificado, para a esto tendrá en cuenta de acuerdo con Pérez (2013):
     .row.justify-content-center.mb-5
-      .col-lg-10
+      .col-lg-10.t1-1-3-linea-tiempo1
         LineaTiempoD
-          .row.justify-content-center(numero="1" titulo="Capacitación al equipo de postventa")
+          .row.justify-content-center( numero="1" titulo="Capacitación al equipo de postventa")
             .col-lg-2.col-md-3.col-sm-3.col-4
               figure.mb-4
                 img(src='@/assets/curso/tema1/img09.svg') 
@@ -326,6 +371,8 @@
       .col-lg-4 
         figure
           img(src='@/assets/curso/tema1/img13.png') 
+    
+    Separador
 
     #t_1_4.titulo-segundo.color-acento-contenido
       h2 1.4 Procedimiento para estructurar un servicio postventa
@@ -416,8 +463,13 @@
             .tarjeta-flip__contenido.p-4.p-xl-5.d-flex.align-items-center(style="background-color:#F8DE63; height:100%")
               div
                 h4.mb-1 Recepción y atención de incidencias
-                p.mb-0 Atención de la llamada: se recibe la llamada de un cliente con problemas en su computador que aún tiene garantía. 
-                p.mb-0 Gestión de la llamada: se le pide ciertas instrucciones, como si esta instalado a la energía, si la batería está cargada, entre otras
+                ul.lista-ul
+                    li 
+                      i.lista-ul__vineta
+                      | Atención de la llamada: se recibe la llamada de un cliente con problemas en su computador que aún tiene garantía. 
+                    li 
+                      i.lista-ul__vineta
+                      | Gestión de la llamada: se le pide ciertas instrucciones, como si esta instalado a la energía, si la batería está cargada, entre otras
       .col-lg-3.d-flex
         .tarjeta.tarjeta-flip.color-acento-botones(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
@@ -426,8 +478,13 @@
             .tarjeta-flip__contenido.p-4.p-xl-5.d-flex.align-items-center(style="background-color:#F8DE63; height:100%")
               div
                 h4.mb-1 Gestión de la llamada.
-                p.mb-0 Si no está enchufado y lo enchufa y enciende correctamente, fin de la llamada.
-                p.mb-0 Si estaba encendido y no funciona, entonces se reporta al Servicio de Asistencia Técnica.
+                ul.lista-ul
+                    li 
+                      i.lista-ul__vineta
+                      | Si no está enchufado y lo enchufa y enciende correctamente, fin de la llamada.                   
+                    li 
+                      i.lista-ul__vineta
+                      | Si estaba encendido y no funciona, entonces se reporta al Servicio de Asistencia Técnica.
       .col-lg-3.d-flex
         .tarjeta.tarjeta-flip.color-acento-botones(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
@@ -436,8 +493,13 @@
             .tarjeta-flip__contenido.p-4.p-xl-5.d-flex.align-items-center(style="background-color:#F8DE63; height:100%")
               div
                 h4.mb-1 Servicio de Asistencia Técnica
-                p.mb-0 El Servicio de Asistencia Técnica reconoce fallos amparados en la garantía y recomienda un cambio de computador.
-                p.mb-0 Se registra el dictamen de la incidencia y se pasa a recoger el computador al sitio donde se encuentra el cliente o recibe el PC en el punto de venta.
+                ul.lista-ul
+                    li 
+                      i.lista-ul__vineta
+                      | El Servicio de Asistencia Técnica reconoce fallos amparados en la garantía y recomienda un cambio de computador.                   
+                    li 
+                      i.lista-ul__vineta
+                      | Se registra el dictamen de la incidencia y se pasa a recoger el computador al sitio donde se encuentra el cliente o recibe el PC en el punto de venta.
       .col-lg-3.d-flex
         .tarjeta.tarjeta-flip.color-acento-botones(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
@@ -446,8 +508,13 @@
             .tarjeta-flip__contenido.p-4.p-xl-5.d-flex.align-items-center(style="background-color:#F8DE63; height:100%")
               div
                 h4.mb-1 Gestión final
-                p.mb-0 Se realiza el cambio del PC averiado por uno nuevo.
-                p.mb-0 Se llama posteriormente a preguntar cómo se siente con el servicio prestado y su nuevo PC.
+                ul.lista-ul
+                    li 
+                      i.lista-ul__vineta
+                      | Se realiza el cambio del PC averiado por uno nuevo.
+                    li 
+                      i.lista-ul__vineta
+                      | Se llama posteriormente a preguntar cómo se siente con el servicio prestado y su nuevo PC.
 
     Separador
 
