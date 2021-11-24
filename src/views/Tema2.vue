@@ -160,8 +160,8 @@
       h2 2.3 Fases del servicio postventa
     p.mb-5 En el desarrollo del servicio postventa luego que el cliente ha realizado su compra, la empresa debe incorporar a sus protocolos acciones que dan fortaleza al seguimiento de clientes y este lo agradece. Al respecto Douglas (2020) sostiene aspectos a tener en cuenta.
     figure
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      .video        
+        iframe(width="1255" height="706" src="https://www.youtube.com/embed/3Q8v2opknoo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     Separador
 
 </template>
