@@ -95,7 +95,108 @@
         figure.mb-4
           img(src='@/assets/curso/tema1/img02.png') 
 
-    .row.justify-content-center.mb-5
+
+    div.t1-info
+      ImagenInfografica.color-secundario.mb-5
+        template(v-slot:imagen)
+          figure
+            img(src='@/assets/curso/tema1/img27.svg', alt='Texto que describa la imagen')          
+
+        
+        .tarjeta.color-acento-botones--borde.p-3(x="21%" y="12%" numero=" ")
+          p.mb-1 <b>Con estas acciones se puede atraer nuevos clientes:</b>
+          p.mb-4 Con estas acciones se puede atraer nuevos clientes:
+          ol.lista-ol.w-100
+            li.mb-0
+              span.text-bold a.
+              | Repartir volantes. Folletos o material P.O.P. que sirve para promocionar o dar a conocer algo. Acción muy económica acercarse al público objetivo y con volantes dar a conocer el negocio.
+            li.mb-0
+              span.text-bold b. 
+              | Ofrecer muestras gratis. Producto en dimensiones mas pequeñas para que el cliente conozca sus beneficios y atributos. En caso de un producto la muestra es efectiva para dar a conocerlo, en el caso de un servicio, se puede ofrecer una prueba
+            li.mb-0
+              span.text-bold c. 
+              | Entregar descuentos. Es realizar disminuciones en el precio o servicio. Promociones especiales por 20 o 30 días para dar tiempo a que visiten el negocio
+            li.mb-0
+              span.text-bold d. 
+              | Asistir a encuentros de negocios. Asistir a eventos, ferias y exposiciones a través de Cámaras de Comercio, vinculaciones a gremios
+            li.mb-0
+              span.text-bold e. 
+              | Buscar referencias. Se refiere a personas o empresas que pertenecen a un mismo tipo o clase de organización o asociación. Con la unión a gremios o CC, incluso con clientes que hayan conocido y probado el producto solicitar recomendaciones
+            li.mb-0
+              span.text-bold f. 
+              | Crear un guion de 30 segundos. Escribir lo que se va a decir o sustentar.  Definir la comunicación que se le quiere dar a los clientes, medios de comunicación e incluso posibles inversionistas
+            li.mb-0
+              span.text-bold g. 
+              | Dar a conocer el negocio. Se puede hacer por medio de redes sociales, emails, llamadas a amigos y conocidos, compartir información de objeto del negocio y su propuesta de valor
+            li.mb-0
+              span.text-bold h. 
+              | Aprovechar las redes sociales. Estructuras compuestas por personas en internet. Busca presencia en la web, crea blogs, anuncios en Instagram, Facebook, Twitter.
+            li.mb-0
+              span.text-bold i. 
+              | Intercambiar tarjetas de presentación. Son pequeñas impresiones en papel que da información comercial de una persona o entidad. Aunque un poco obsoleto, pero sigue siendo efectiva, es una manera recordación cuando se presente la necesidad.
+        .tarjeta.color-acento-botones--borde.p-3(x="21%" y="37%" numero=" ")
+          p.mb-1 <b>Captar </b>
+          p.mb-4 Con estas acciones se puede atraer nuevos clientes:
+          ol.lista-ol.w-100
+            li.mb-0
+              span.text-bold a. 
+              p.mb-0 <b>Blog corporativo.</b> Es un sitio web donde se publica información o contenido del interés de los propietarios. La forma de presentarse la empresa con contenidos atractivos de su propuesta de valor
+            li.mb-0
+              span.text-bold b. 
+              p.mb-0 <b>Redes sociales.</b> Son estructuras que se desarrollan en la internet y persiguen fines comunes. Esta con contenidos en las principales redes sociales que comparten su público objetivo
+            li.mb-0
+              span.text-bold c. 
+              p.mb-0 <b>Dar muestras gratis.</b> Producto en dimensiones más pequeñas para que el cliente conozca sus beneficios y atributos.
+            li.mb-0
+              span.text-bold d. 
+              p.mb-0 En todas las etapas de la postventa dar muestras gratis es relevante y cumple una función más acentuada en la medida en que pasan las etapas. Puede servir para obtener datos del cliente o que continúe comprando.
+            li.mb-0
+              span.text-bold e. 
+              p.mb-0 <b>Correo electrónico.</b> Es un servicio de internet que permite enviar mensajes a personas u organizaciones. La utilización del correo en esta etapa debe procurar la personalización del cliente, dirigirse de manera personalizada y puntual a lo que necesita el cliente.
+            li.mb-0
+              span.text-bold f. 
+              p.mb-0 <b>Crear programas de fidelización.</b> Es un programa que realiza la empresa y ofrece premios por comprar. Crear membresías, cupones con descuento, mimos exclusivos, entre otros.
+            li.mb-0
+              span.text-bold g. 
+              p.mb-0 <b>Crear comunidades virtuales.</b> Son aquellas personas que se unen a través de internet en grupo con intereses similares. h. Crear grupos en Facebook haciendo Lives, Canales en YouTube. 
+        .tarjeta.color-acento-botones--borde.p-3(x="21%" y="62.5%" numero=" ")
+          p.mb-1 <b>Fidelizar </b>
+          p.mb-4 Estas acciones logran una relación duradera con los clientes en el tiempo:
+          ol.lista-ol.w-100
+            li.mb-0
+              span.text-bold a. 
+              p.mb-0 <b>Tarjetas de fidelización.</b> Se trata de premiar el consumo con premios. Este tipo de tarjetas ofrecen a los titulares una serie de ventajas adicionales como descuentos, puntos canjeables por regalos e incluso la devolución de un tanto por ciento de sus compras.
+            li.mb-0
+              span.text-bold b. 
+              p.mb-0 <b>Cupones descuento.</b> Donde el usuario puede recortar un cupón y obtendrá una rebaja en el precio de algún producto o servicio del establecimiento.
+            li.mb-0
+              span.text-bold c. 
+              p.mb-0 <b>Regalos.</b> El cliente recibe un regalo, vinculado o no a la actividad de la empresa, éste es ofrecido bien en agradecimiento a la compra o uso de un producto o servicio del establecimiento.
+            li.mb-0
+              span.text-bold d. 
+              p.mb-0 <b>Puntos por compra.</b> Son promociones que dan entidades comerciales y financieras por la compra de sus productos y servicios. Permiten obtener una serie de beneficios en tiempo real.  Como la estrategia de los Almacenes Éxito “Puntos Colombia”. Cada punto obtenido equivale a 7 pesos y el cliente puede llevarlo como pago de su compra.
+            li.mb-0
+              span.text-bold e. 
+              p.mb-0 <b>Gestionar clientes a través de Apps</b>, la cual es una aplicación en el móvil para interactuar con los clientes. A este tipo de aplicaciones, se les puede añadir diferentes funcionalidades, como por ejemplo una función donde tengamos dentro de la App para buscar clientes, y poder así, tenerlo todo ordenado y clasificado según categorías o intereses.
+            li.mb-0
+              span.text-bold f. 
+              p.mb-0 <b>Comunicación personalizada.</b> Envío directo al cliente de ofertas con descuento exclusivo personalizados.
+            li.mb-0
+              span.text-bold g. 
+              p.mb-0 <b>Regalos.</b> En ocasiones dar un regalo al cliente por su volumen de compra, generalmente en fechas especiales
+            li.mb-0
+              span.text-bold h. 
+              p.mb-0 <b>C.R.M.</b> (Customer Relationship Management). Gestión de la relación con el cliente. Es una serie de actividades dirigidas al cliente como una estrategia de fidelización y de relación con el cliente a largo plazo apoyadas en tecnologías. Es montado para tener comunicaciones más fluidas y directas con los clientes
+            li.mb-0
+              span.text-bold i. 
+              p.mb-0 <b>Club de clientes.</b> También conocidos como Clubes de fidelización son aquellos que premian a los clientes por sus compras repetidas. Puede ser por gustos, hábitos o labores que se realicen en la casa.
+
+        .tarjeta.color-acento-botones--borde.p-3(x="21%" y="88%" numero=" ")
+          p.mb-1 <b>Retener </b>
+          p.mb-4 Retener clientes es la labor del día a día del asesor comercial, cada vez que un cliente visita el punto de venta o realiza una compra por otro medio, la empresa debe asegurarse que la experiencia de ese cliente sea única. Un cliente puede o no repetir la compra porque no tiene otro lugar donde comprar, en cuanto tenga otra opción deja de comprar. Es por eso que la empresa debe hacer esfuerzos por mantener esa relación por largo plazo. 
+        
+
+    //.row.justify-content-center.mb-5
       .col-lg-10
         .t1.tarjeta.color-primario.p-3.mb-5
           .row.justify-content-around.align-items-center
@@ -142,7 +243,7 @@
                 figure.mb-4
                   img(src='@/assets/curso/tema1/img06.svg') 
                 h4 Las devoluciones
-                p.mb-0 Debe ir unidad a la garantía que ofrece el producto o a las políticas de la empresa al respecto. 
+                p.mb-0 Debe ir unida a la garantía que ofrece el producto o a las políticas de la empresa al respecto. 
     
       .row.justify-content-center
         .col-lg-8
