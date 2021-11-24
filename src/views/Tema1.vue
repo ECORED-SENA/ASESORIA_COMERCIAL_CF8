@@ -104,7 +104,7 @@
 
         
         .tarjeta.color-acento-botones--borde.p-3(x="21%" y="12%" numero=" ")
-          p.mb-1 <b>Con estas acciones se puede atraer nuevos clientes:</b>
+          p.mb-3 <b>Atraer</b>
           p.mb-4 Con estas acciones se puede atraer nuevos clientes:
           ol.lista-ol.w-100
             li.mb-0
@@ -135,7 +135,7 @@
               span.text-bold i. 
               | Intercambiar tarjetas de presentación. Son pequeñas impresiones en papel que da información comercial de una persona o entidad. Aunque un poco obsoleto, pero sigue siendo efectiva, es una manera recordación cuando se presente la necesidad.
         .tarjeta.color-acento-botones--borde.p-3(x="21%" y="37%" numero=" ")
-          p.mb-1 <b>Captar </b>
+          p.mb-3 <b>Captar </b>
           p.mb-4 Con estas acciones se puede atraer nuevos clientes:
           ol.lista-ol.w-100
             li.mb-0
@@ -160,7 +160,7 @@
               span.text-bold g. 
               p.mb-0 <b>Crear comunidades virtuales.</b> Son aquellas personas que se unen a través de internet en grupo con intereses similares. h. Crear grupos en Facebook haciendo Lives, Canales en YouTube. 
         .tarjeta.color-acento-botones--borde.p-3(x="21%" y="62.5%" numero=" ")
-          p.mb-1 <b>Fidelizar </b>
+          p.mb-3 <b>Fidelizar </b>
           p.mb-4 Estas acciones logran una relación duradera con los clientes en el tiempo:
           ol.lista-ol.w-100
             li.mb-0
@@ -192,7 +192,7 @@
               p.mb-0 <b>Club de clientes.</b> También conocidos como Clubes de fidelización son aquellos que premian a los clientes por sus compras repetidas. Puede ser por gustos, hábitos o labores que se realicen en la casa.
 
         .tarjeta.color-acento-botones--borde.p-3(x="21%" y="88%" numero=" ")
-          p.mb-1 <b>Retener </b>
+          p.mb-3 <b>Retener </b>
           p.mb-4 Retener clientes es la labor del día a día del asesor comercial, cada vez que un cliente visita el punto de venta o realiza una compra por otro medio, la empresa debe asegurarse que la experiencia de ese cliente sea única. Un cliente puede o no repetir la compra porque no tiene otro lugar donde comprar, en cuanto tenga otra opción deja de comprar. Es por eso que la empresa debe hacer esfuerzos por mantener esa relación por largo plazo. 
         
 
