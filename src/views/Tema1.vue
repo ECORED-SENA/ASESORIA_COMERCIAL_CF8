@@ -136,7 +136,7 @@
               | Intercambiar tarjetas de presentación. Son pequeñas impresiones en papel que da información comercial de una persona o entidad. Aunque un poco obsoleto, pero sigue siendo efectiva, es una manera recordación cuando se presente la necesidad.
         .tarjeta.color-acento-botones--borde.p-3(x="21%" y="37%" numero=" ")
           p.mb-3 <b>Captar </b>
-          p.mb-4 Con estas acciones se puede atraer nuevos clientes:
+          p.mb-4 Para las empresas que se dedican a vender al cliente final (B2C), se pueden adoptar acciones para que esos clientes que muestran interés en los productos o servicios de la empresa realicen la principal accion: COMPRAR. Para Da Silva (2020), estas son acciones que ayudan a captar clientes:
           ol.lista-ol.w-100
             li.mb-0
               span.text-bold a. 
